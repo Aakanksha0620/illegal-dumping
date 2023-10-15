@@ -39,6 +39,8 @@ REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the 
 
 REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
 
+Mapping, monitoring and preventing potential illegal dumpsites using Machine Learning
+
 ### Our idea
 
 INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
