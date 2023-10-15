@@ -35,6 +35,8 @@ _INSTRUCTIONS: Complete all required deliverable sections below._
 
 REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
 
+Annually, waste production surges, with illegal dumpsites proliferating, especially in unaddressed locations. Inadequate recycling exacerbates ecological and health issues, as dumpsites attract disease-carrying pests. This leads to potentially life-threatening diseases, while also impacting the mental well-being of communities residing near these sites.
+
 ### How our technology solution can help
 
 REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
