@@ -1,10 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/)
-
-_INSTRUCTIONS: This GitHub repository serves as a template you can use to create a new project for the [2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/). Use the **Use this template** button to create a new version of this repository and start entering content for your own Call for Code submission project. Make sure you have [registered for the 2023 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/register/) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project._
-
-_New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
-
-# Replace this heading with your team/submission name
+# DumpWarriors
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
@@ -33,13 +27,9 @@ _INSTRUCTIONS: Complete all required deliverable sections below._
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
-
 Annually, waste production surges, with illegal dumpsites proliferating, especially in unaddressed locations. Inadequate recycling exacerbates ecological and health issues, as dumpsites attract disease-carrying pests. This leads to potentially life-threatening diseases, while also impacting the mental well-being of communities residing near these sites.
 
 ### How our technology solution can help
-
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
 
 Mapping, monitoring and preventing potential illegal dumpsites using Machine Learning
 
@@ -87,15 +77,19 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 
 ### Project development roadmap
 
-The project currently does the following things.
+The project currently focuses on the development of a minimal viable product (MVP) that possesses the capability to identify illegal dumpsites through visual mapping. This will serve as a foundation for the application's functionality and purpose.
 
 - Feature 1
 - Feature 2
 - Feature 3
 
-In the future we plan to...
+In the future we plan to iteratively enhance our application 
 
-See below for our proposed schedule on next steps after Call for Code 2023 submission.
+Product Iteration Phase 2 - Building a robust reporting mechanism. This system will enable users to effectively report instances of illegal dumpsites they encounter, promoting community involvement and action in addressing environmental concerns.
+
+Product Iteration Phase 3 - Enhance the application's overall utility. We will achieve this by incorporating information about legal dumpsites onto our maps. This additional data will provide users with a comprehensive view of disposal options and further support responsible waste management practices.
+
+Product Iteration Phase 4 - EcoEye will take a significant step towards discouraging illegal dumping. We will deploy a comprehensive disincentive system that incorporates advanced surveillance cameras, sensors, and alarming mechanisms. This system will not only help in the identification of illegal dumpers but also serve as a deterrent, promoting responsible waste disposal practices and protecting our environment.
 
 ![Roadmap](./images/roadmap.jpg)
 
