@@ -92,7 +92,7 @@ Product Iteration Phase 3 - Enhance the application's overall utility. We will a
 
 Product Iteration Phase 4 - EcoEye will take a significant step towards discouraging illegal dumping. We will deploy a comprehensive disincentive system that incorporates advanced surveillance cameras, sensors, and alarming mechanisms. This system will not only help in the identification of illegal dumpers but also serve as a deterrent, promoting responsible waste disposal practices and protecting our environment.
 
-![Roadmap](./images/roadmap.jpg)
+![Roadmap](./images/Illegal Dumping IBM_CFC Roadmap.png)
 
 ## Additional details
 
