@@ -62,10 +62,11 @@ Diagram and step-by-step description of the flow of our solution:
 
 ![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. A user-facing application is created, where users input a location to identify potential illegal dump sites.
+2. Geopy and OpenStreetMap are used for translating user's input into geographical coordinates and render map
+3. Next, the coordinates obtained through Geopy and the OSM data are transmitted to IBMs Watson Machine Learning model — WatsonX built on the CatBoost algorithm. This model is trained to assess the provided coordinates and predict whether the location is a potential illegal dump site based on its geospatial characteristics.
+4. If the location is marked in red on the map, it suggests the presence of a potential illegal dumping site. Conversely, if the location appears in green, it indicates that the area is likely free from such concerns.
+
 
 ## Presentation materials
 
