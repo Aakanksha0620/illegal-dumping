@@ -60,7 +60,7 @@ INSTRUCTIONS: List any other IBM technology used in your solution and describe h
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](./images/SolutionArchitecture.jpg)
+[Solution Architecture](./images/SolutionArchitecture.jpg)
 
 1. A user-facing application is created, where users input a location to identify potential illegal dump sites.
 2. Geopy and OpenStreetMap are used for translating user's input into geographical coordinates and render map
