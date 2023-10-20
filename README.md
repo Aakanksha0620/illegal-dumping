@@ -21,8 +21,6 @@
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-_INSTRUCTIONS: Complete all required deliverable sections below._
-
 ## Project summary
 
 ### The issue we are hoping to solve
@@ -35,7 +33,19 @@ Mapping, monitoring and preventing potential illegal dumpsites using Machine Lea
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+
+The development process described involves a user-facing application designed to identify potential illegal dump sites. This application leverages a combination of user input, geospatial tools, and machine learning to determine the likelihood of illegal dumping in a given location.
+
+In the first step, users input a location of interest. This initiates the process by providing a geographical reference point for further analysis. The integration of user input in the application ensures that it caters to specific locations and areas of concern.
+
+Geopy and OpenStreetMap (OSM) come into play in the second step. Geopy is a geocoding library that translates user-provided location data into precise geographical coordinates, enabling the application to pinpoint the exact area of interest. OpenStreetMap, a collaborative mapping project, is used to render a detailed map of the selected location. Together, these tools lay the foundation for a comprehensive analysis.
+
+The third step is where the real intelligence of the system shines. The coordinates obtained through Geopy and the map data from OSM are transmitted to IBM's Watson Machine Learning model, known as WatsonX, which is built on the CatBoost algorithm. CatBoost is a machine learning algorithm renowned for its effectiveness in handling geospatial data. WatsonX is specifically trained to assess the provided coordinates and predict whether the location exhibits characteristics indicative of a potential illegal dump site. This is a critical phase in which machine learning analyzes a wide range of geospatial features and trends to make an informed prediction.
+
+The fourth step involves presenting the results to the user. If the location is marked in red on the map, it suggests a high likelihood of illegal dumping in the area. This visual representation offers users a clear and easily understandable indicator of potential concerns. Conversely, if the location appears in green on the map, it signals that the area is likely free from such concerns, providing reassurance to users and authorities alike.
+
+
+In summary, this user-facing application seamlessly combines user input, geospatial data translation, and the power of machine learning to provide a valuable tool for identifying potential illegal dump sites. By offering a user-friendly and visually intuitive approach to environmental concerns, it empowers individuals and organizations to take proactive steps towards preserving the environment.
 
 More detail is available in our [description document](./docs/DESCRIPTION.md).
 
@@ -60,7 +70,7 @@ INSTRUCTIONS: List any other IBM technology used in your solution and describe h
 
 Diagram and step-by-step description of the flow of our solution:
 
-[Solution Architecture](./images/SolutionArchitecture.jpg)
+![Solution Architecture](./images/SolutionArchitecture.jpg)
 
 1. A user-facing application is created, where users input a location to identify potential illegal dump sites.
 2. Geopy and OpenStreetMap are used for translating user's input into geographical coordinates and render map
@@ -70,7 +80,6 @@ Diagram and step-by-step description of the flow of our solution:
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
 
 ### Solution demo video
 
@@ -92,7 +101,7 @@ Product Iteration Phase 3 - Enhance the application's overall utility. We will a
 
 Product Iteration Phase 4 - EcoEye will take a significant step towards discouraging illegal dumping. We will deploy a comprehensive disincentive system that incorporates advanced surveillance cameras, sensors, and alarming mechanisms. This system will not only help in the identification of illegal dumpers but also serve as a deterrent, promoting responsible waste disposal practices and protecting our environment.
 
-![Roadmap](./images/Illegal Dumping IBM_CFC Roadmap.png)
+[Roadmap](./images/Illegal Dumping IBM_CFC Roadmap.png)
 
 ## Additional details
 
@@ -109,31 +118,3 @@ You can find a running system to test at...
 See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
 ---
-
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
