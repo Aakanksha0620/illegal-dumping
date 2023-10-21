@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Illegal dump site search</title>
+    <style>
+        body {
+            background-image: url("/static/dumping_image.jpg"); /* Updated URL */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            
+        }
+
+        h1 {
+            color: #333;
+            margin: 20px 0;
+        }
+
+        form {
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background: #008CBA;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background: #005B7F;
+        }
+
+        #suggestion-list {
+            position: absolute;
+            border: 1px solid #ccc;
+            max-height: 150px;
+            overflow-y: auto;
+            display: none;
+            background: #fff;
+        }
+
+        iframe {
+            display: block;
+            margin: 20px auto;
+            width: 100%; /* Make the iframe responsive to the screen width */
+            max-width: 900px; /* Limit the maximum width to 900px */
+        }
+    </style>
+</head>
+<body>
+    <h1>EcoEye Search</h1>
+    <form method="post">
+        <input type="text" name="location_name" id="location_name" placeholder="Enter a location" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="suggestion-list"></div>
+    <iframe src="{{ url_for('static', filename='map.html') }}" width="900" height="600"></iframe>
+</body>
+</html>
