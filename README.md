@@ -50,6 +50,8 @@ More detail is available in our [description document](./docs/DESCRIPTION.md).
 - [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9YWk%3D) - It is used to run the prediction pipleline
 - [Watson Machine Learning](https://cloud.ibm.com/catalog/services/watson-machine-learning) - It is used to run the machine learning model
 
+https://github.com/Aakanksha0620/illegal-dumping/blob/main/prediction_code/training_and_prediction.ipynb?short_path=a12a46a#L94
+
 https://github.com/Aakanksha0620/illegal-dumping/blob/main/prediction_code/training_and_prediction.ipynb?short_path=a12a46a#L402 
 
 ### Other IBM technology used
@@ -60,7 +62,7 @@ IBM Watsonx AutoAI feature was used to tune and train the model
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Solution Architecture](/images/SolutionArchitecture.png)
+![Solution Architecture]([images/SolutionArchitecture.png](https://github.com/Aakanksha0620/illegal-dumping/blob/b0dbf6877c67273ebee164e481170670860d551b/images/SolutionArchitecture.png))
 
 1. A user-facing application is created, where users input a location to identify potential illegal dump sites.
 2. Geopy and OpenStreetMap are used for translating user's input into geographical coordinates and render map
