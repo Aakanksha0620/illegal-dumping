@@ -60,7 +60,7 @@ IBM Watsonx AutoAI feature was used to tune and train the model
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Solution Architecture](./images/SolutionArchitecture.png)
+![Solution Architecture](/images/SolutionArchitecture.png)
 
 1. A user-facing application is created, where users input a location to identify potential illegal dump sites.
 2. Geopy and OpenStreetMap are used for translating user's input into geographical coordinates and render map
@@ -73,7 +73,7 @@ Diagram and step-by-step description of the flow of our solution:
 
 ### Solution demo video
 
-[![Watch the video](./images/ecoeye.png)](https://youtu.be/rVKCBxmcttc?si=zSVKhMFfHnU2wZEG)
+[![Watch the video](/images/ecoeye.png)](https://youtu.be/rVKCBxmcttc?si=zSVKhMFfHnU2wZEG)
 
 ### Project development roadmap
 
@@ -91,7 +91,7 @@ Product Iteration Phase 3 - Enhance the application's overall utility. We will a
 
 Product Iteration Phase 4 - EcoEye will take a significant step towards discouraging illegal dumping. We will deploy a comprehensive disincentive system that incorporates advanced surveillance cameras, sensors, and alarming mechanisms. This system will not only help in the identification of illegal dumpers but also serve as a deterrent, promoting responsible waste disposal practices and protecting our environment.
 
-![Roadmap](./images/Roadmap.png)
+![Roadmap](/images/Roadmap.png)
 
 ## Additional details
 
