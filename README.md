@@ -75,7 +75,7 @@ Diagram and step-by-step description of the flow of our solution:
 
 ### Solution demo video
 
-[![Watch the video](./images/ecoeye.png)](https://youtu.be/rVKCBxmcttc?si=zSVKhMFfHnU2wZEG)
+[![Watch the video](./images/ecoeye.png)](https://youtu.be/mJ4wFcJDuM0)
 
 ### Project development roadmap
 
