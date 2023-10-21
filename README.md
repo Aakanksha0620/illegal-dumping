@@ -62,7 +62,7 @@ IBM Watsonx AutoAI feature was used to tune and train the model
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Solution Architecture]([images/SolutionArchitecture.png](https://github.com/Aakanksha0620/illegal-dumping/blob/b0dbf6877c67273ebee164e481170670860d551b/images/SolutionArchitecture.png))
+![Solution Architecture](images/SolutionArchitecture.png)
 
 1. A user-facing application is created, where users input a location to identify potential illegal dump sites.
 2. Geopy and OpenStreetMap are used for translating user's input into geographical coordinates and render map
