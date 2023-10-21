@@ -99,6 +99,6 @@ Product Iteration Phase 4 - EcoEye will take a significant step towards discoura
 
 ### Live demo
 
-You can find a running system to test at...
+[![You can find a running system to test at...](https://youtu.be/mJ4wFcJDuM0?t=31)]
 
 ---
