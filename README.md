@@ -12,7 +12,6 @@
   - [Solution demo video](#solution-demo-video)
   - [Project development roadmap](#project-development-roadmap)
 - [Additional details](#additional-details)
-  - [How to run the project](#how-to-run-the-project)
   - [Live demo](#live-demo)
 
 
@@ -48,19 +47,20 @@ More detail is available in our [description document](./docs/DESCRIPTION.md).
 
 ### IBM AI service(s) used
 
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
-
 - [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9YWk%3D) - It is used to run the prediction pipleline
-- [Watson Machine Learning](https://cloud.ibm.com/catalog/services/watson-machine-learning) - this is used to run the machine learning model
+- [Watson Machine Learning](https://cloud.ibm.com/catalog/services/watson-machine-learning) - It is used to run the machine learning model
+
+https://github.com/Aakanksha0620/illegal-dumping/blob/main/prediction_code/training_and_prediction.ipynb?short_path=a12a46a#L402 
 
 ### Other IBM technology used
 
 IBM Watsonx AutoAI feature was used to tune and train the model
+
 ### Solution architecture
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Solution Architecture](./images/SolutionArchitecture.jpg)
+![Solution Architecture](./images/SolutionArchitecture.png)
 
 1. A user-facing application is created, where users input a location to identify potential illegal dump sites.
 2. Geopy and OpenStreetMap are used for translating user's input into geographical coordinates and render map
@@ -73,7 +73,7 @@ Diagram and step-by-step description of the flow of our solution:
 
 ### Solution demo video
 
-[![Watch the video](./images/SolutionArchitecture.jpg)](https://youtu.be/rVKCBxmcttc?si=zSVKhMFfHnU2wZEG)
+[![Watch the video](./images/ecoeye.png)](https://youtu.be/rVKCBxmcttc?si=zSVKhMFfHnU2wZEG)
 
 ### Project development roadmap
 
@@ -91,20 +91,12 @@ Product Iteration Phase 3 - Enhance the application's overall utility. We will a
 
 Product Iteration Phase 4 - EcoEye will take a significant step towards discouraging illegal dumping. We will deploy a comprehensive disincentive system that incorporates advanced surveillance cameras, sensors, and alarming mechanisms. This system will not only help in the identification of illegal dumpers but also serve as a deterrent, promoting responsible waste disposal practices and protecting our environment.
 
-[Roadmap](./images/Illegal Dumping IBM_CFC Roadmap.png)
+![Roadmap](./images/Roadmap.png)
 
 ## Additional details
-
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
-
-### How to run the project
-
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
 
 ### Live demo
 
 You can find a running system to test at...
-
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
 ---
